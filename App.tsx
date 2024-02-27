@@ -6,9 +6,9 @@ import Test from "./components/Test"
 export default function App() {
     return (
         <>
-            <View>
+            <SafeAreaView>
                 <Test />
-            </View>
+            </SafeAreaView>
         </>
     )
 }
