@@ -8,7 +8,7 @@ export default function App() {
         <>
             <SafeAreaView>
                 <View style={styles.container}>
-                    <Test style={styles.test} />
+                    <Test />
                 </View>
             </SafeAreaView>
         </>
@@ -23,10 +23,6 @@ const styles = StyleSheet.create({
         paddingTop: 25,
         backgroundColor: "#0b1a25"
     },
-    test: {
-        fontSize: 25,
-        color: "white",
-    }
 })
 
 

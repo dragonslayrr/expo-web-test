@@ -3,6 +3,13 @@ import React from "react"
 
 export default function Test() {
     return (
-        <Text>Test PLS WORK</Text>
+        <Text style={styles.test}>Test PLS WORK</Text>
     )
 }
+
+const styles = StyleSheet.create({
+    test: {
+        fontSize: 25,
+        color: "white",
+    }
+})
